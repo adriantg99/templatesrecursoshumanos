@@ -1,0 +1,569 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Newsreader:wght@500&display=swap');
+
+nav{
+
+    display: flex;
+    flex-direction: row;
+    background: #13322B;
+    height: 60px; 
+    padding-left: 1.5%;
+    padding-right: 1.5%;
+}
+
+.nav_link{
+    
+    max-height: 100%;
+    max-width: 100%;
+    
+    font-size: 21px;
+
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+
+    text-align: center;
+
+    padding-top: 16px;
+    padding-left: 16px;
+    padding-right: 16px;
+
+    color: white;
+
+    margin-left: 10px;
+    margin-right: 10px;
+
+    display: inline-block;
+
+    text-decoration: none;
+}
+
+.nav_link:hover{
+    background-color: #001512;
+    color: #b38e5d;
+}
+
+
+.logo{
+
+    height: 100%;
+    width: 100px;
+
+    padding-top: 1.5px;
+    padding-left: 16px;;
+
+    text-indent: 9999999999999px;
+
+    background-image: url("img_resources/logo_sep.png");
+    background-position:center;
+    background-size:contain;
+    background-repeat: no-repeat;  
+}
+
+a div.logo img{
+    max-width: 100%;
+    max-height: 100%;
+}
+
+nav div{
+    
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    justify-content: flex-end;
+}
+
+.logo:hover{
+    background-color: #001512;
+    opacity: 0.5;
+}
+
+
+.imagen{
+    position: relative;
+    text-align: center;
+    color: red;
+    background-size: 100%;
+}
+
+.seccion{
+
+    margin-top: 2%;
+    margin-left: 10%;
+    margin-right: 10%;
+    font-size: 35px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.titulo_letra{
+
+    font-size: 35px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+
+}
+
+.linea{
+    margin-top: 5px;
+    background-color:#b38e5d;
+    height: 1px;   
+}
+
+.obj_align
+{
+    position: relative;
+    background-color: white;
+
+    margin-left: 10%;
+
+}
+
+.texto_objetivos{    
+    background-color: white;
+
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+
+    display: inline-block;
+
+
+    margin-top: 5%;
+    margin-bottom: 5%;
+    
+    width: 50%;
+    
+    height: 25%;
+
+}
+
+.text_align{
+    text-align: left;
+}
+.maestros_img{
+
+    display:inline-block;  
+    
+    max-width: 100%;
+    max-height: 100%;
+    height:auto;
+    position: absolute;    
+    /*margin-bottom: -10%;*/
+    
+    /*object-fit: fill;*/    
+}
+.card{
+    background-color: brown;
+}
+
+div.imagen img{
+    width: 100%;
+}
+
+header{          
+    background-color: red;  
+}
+
+.centered{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    font-size: 30px;
+}
+
+.trayectoria_titulo{
+
+    letter-spacing: 5px;
+    margin-bottom: 0px;
+
+    font-family: 'Montserrat', sans-serif;
+    height: 100%;
+    width: 100%;
+}
+
+.subtitulo{
+    margin-top: 0%;
+
+    font-family: 'Montserrat', sans-serif;
+    font-weight: Regular;
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+    background: #ffffff;
+    color: #5b5b5b;
+}
+
+h1{
+    color: #5b5b5b;
+    font-family: Arial;
+}
+
+h2{
+    color:#9d2449;
+    font-family: Arial;
+}
+
+footer{
+
+    background: #13322B;
+    color: white;
+    height: 300px;
+
+    width: 98%;
+    
+    font-size: 35px;
+    font-family: 'Montserrat', sans-serif;
+
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: center;
+
+
+    align-items: center;
+
+    margin-top: 9%;
+    padding: 1%;
+}
+
+ul{
+    margin:0;
+    padding: 0;
+    list-style: none;
+}
+
+li{
+    display: inline-block;
+    margin: 10px;
+    text-decoration: none;
+}
+
+.modulos{
+    display:inline-block;
+    width: 350px;
+    height: 350px;
+    background: white;
+    margin: 1%;
+    padding: 1%;
+    border-style: solid;
+    border-color:#5b5b5b; 
+    border-width: 2px;
+    border-radius: 5%;
+}
+
+
+
+.module_agroup{
+    background-color: white;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 16%;
+    margin-right: 16%;
+}
+
+.lista{
+
+    background-color: white;
+
+    display: inline-flex;
+
+    flex-wrap: wrap;
+
+    justify-content: center;
+
+}
+
+
+.module_container{
+    background-color: white;
+}
+
+.modulos_icon{
+    display: block;
+    width: 35%;
+    height: auto;
+
+    margin: auto;
+
+    display: flex;
+    justify-content: center;
+}
+
+.titulo_module_re
+{
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    font-size: 70%;
+
+    font-weight: 600;
+}
+
+.titulo_module_prod{
+    margin-top: 2%;
+    font-family: 'Newsreader', serif;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 600;
+    color: #9d2449;
+}
+
+
+.titulo_module
+{
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    font-weight: 600;
+}
+
+
+div.modulos li
+{
+    display: block;
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.button_ani
+{
+    background-color: #9d2449;
+
+    color: white;
+    text-align: center;
+    font-size: 24px;
+    font-family: 'Montserrat', sans-serif;
+
+    width: 50%;
+    height: 12%;
+
+    padding: 5px;
+    
+    margin: auto;
+
+    border: none;
+    border-radius: 4px;
+
+    display: flex;
+    justify-content: center;
+    cursor:pointer;
+}
+
+.button_ani span{
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+  
+.button_ani span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+  
+  .button_ani:hover span {
+    padding-right: 25px;
+  }
+  
+  .button_ani:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+  
+  .texto_pie{
+    font-size: 18px;
+    text-align: center;
+    margin: 0.5%;
+    }
+
+.div_pie{
+
+    align-self: center;
+
+}
+
+
+div.logo_ith img{
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.logo_ith{
+    max-height: 100%;
+    max-width: 100%;
+    width: 200px;
+}
+
+.logo_ith_clear{
+    width: 200px;
+    height: 200px;
+    background-color: #13322B;
+}
+
+@media screen and (max-width: 800px){
+
+    .texto_objetivos{
+        display: block;
+        width: 100%;
+        font-size: 50%;
+    }
+
+    .trayectoria_titulo{
+        font-size: 80%;
+    }
+
+    .maestros_img{ 
+        display: block;
+        height: auto;
+        width: 100%;
+        position: relative;
+    }
+
+    .subtitulo{
+        font-size: 80%;
+    }
+
+}
+
+@media screen and (max-width: 1050px){
+
+    .texto_objetivos{
+        display: block;
+        width: 100%;
+        font-size: 50%;
+    }
+
+    .trayectoria_titulo{
+        font-size: 80%;
+    }
+
+    .maestros_img{ 
+        display: block;
+        height: auto;
+        width: 50%;
+        position: relative;
+    }
+
+    .subtitulo{
+        font-size: 80%;
+    }
+    
+}
+
+@media screen and (max-width: 1592px){
+
+    .texto_objetivos{
+        display: block;
+        width: 100%;
+        font-size: 50%;
+    }
+
+    .trayectoria_titulo{
+        font-size: 100%;
+    }
+
+    .maestros_img{ 
+        display: block;
+        height: auto;
+        width: 100%;
+        position: relative;
+    }
+
+    .subtitulo{
+        font-size: 100%;
+    }
+
+}
+
+
+
+@media screen and (max-width: 600px){
+
+    .maestros_img{ 
+        display: block;
+        height: auto;
+        width: 100%;
+        position: relative;
+    }
+
+    .texto_objetivos{
+        display: block;
+        width: 100%;
+        font-size: 50%;
+    }
+
+    nav{
+        width: 100%;
+    }
+
+    .trayectoria_titulo{
+        font-size: 50%;
+    }
+
+    .subtitulo{
+        font-size: 50%;
+    }
+
+    div.obj_align img{
+        max-width: 50%;
+    }
+
+    .titulo_letra{
+        font-size: 70%;
+    }
+
+    .modulos{
+        
+        width: 70%;
+        height: auto;
+    }
+
+    .module_container{
+        padding-left: 16%;
+        padding-right:0px;
+    }
+
+    .module_agroup{
+        margin-left: 0%;
+        margin-right: 0%;
+    }
+
+    footer{
+        width: 101%;
+    }
+
+}
+
+@media screen and (max-width: 692px){
+
+    .texto_objetivos{
+        display: block;
+        width: 100%;
+        font-size: 50%;
+    }
+
+    .trayectoria_titulo{
+        font-size: 68%;
+    }
+
+    .maestros_img{ 
+        display: block;
+        height: auto;
+        width: 100%;
+        position: relative;
+    }
+
+    .subtitulo{
+        font-size: 68%;
+    }
+
+}
+

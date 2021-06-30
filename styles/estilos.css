@@ -1,0 +1,59 @@
+.container{
+    display: flex;
+    justify-content: flex-end;
+
+    
+}
+
+.boton{
+    font-size:20px;
+        font-family:Verdana,Helvetica;
+        font-weight:bold;
+        color:white;
+        background:#FF4500;
+        border:0px;
+        width:200px;
+        height:60px;
+}
+
+.botonagregar{
+    font-size:20px;
+        font-family:Verdana,Helvetica;
+        font-weight:bold;
+        color:white;
+        background:#FF4500;
+        border:0px;
+        width:200px;
+        height:60px;
+}
+
+.footer {
+    position:fixed;
+    left:0px;
+    bottom:0px;
+    height:30px;
+    width:100%;
+    background:#999;
+ }
+
+.alinear{
+    display: flex;
+    justify-content: center;
+}
+
+.botonlogin{
+    font-size:15px;
+    font-family:Verdana,Helvetica;
+    font-weight:bold;
+    color:white;
+    background:#FF4500;
+    border:0px;
+    width:120px;
+    height:40px;
+}
+
+.alinearfooter{
+    align-self: flex-end;
+}
+
+
